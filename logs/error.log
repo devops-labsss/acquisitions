@@ -1,0 +1,39 @@
+{"level":"error","message":"Error Creating a User ReferenceError: users is not defined","service":"acquisiitons-api"}
+{"level":"error","message":"Sign-Up Error ReferenceError: users is not defined","service":"acquisiitons-api"}
+{"level":"error","message":"Error Creating a User ReferenceError: users is not defined","service":"acquisiitons-api"}
+{"level":"error","message":"Sign-Up Error ReferenceError: users is not defined","service":"acquisiitons-api"}
+{"level":"error","message":"Error Creating a User ReferenceError: users is not defined","service":"acquisiitons-api"}
+{"level":"error","message":"Sign-Up Error ReferenceError: users is not defined","service":"acquisiitons-api"}
+{"level":"error","message":"Error Creating a User ReferenceError: users is not defined","service":"acquisiitons-api"}
+{"level":"error","message":"Sign-Up Error ReferenceError: users is not defined","service":"acquisiitons-api"}
+{"level":"error","message":"Error Creating a User ReferenceError: users is not defined","service":"acquisiitons-api"}
+{"level":"error","message":"Sign-Up Error ReferenceError: users is not defined","service":"acquisiitons-api"}
+{"level":"error","message":"Error Creating a User ReferenceError: eq is not defined","service":"acquisiitons-api"}
+{"level":"error","message":"Sign-Up Error ReferenceError: eq is not defined","service":"acquisiitons-api"}
+{"level":"error","message":"Error Creating a User ReferenceError: eq is not defined","service":"acquisiitons-api"}
+{"level":"error","message":"Sign-Up Error ReferenceError: eq is not defined","service":"acquisiitons-api"}
+{"level":"error","message":"Error Creating a User Error: Failed query: insert into \"users\" (\"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\") values (default, $1, default, $2, $3, default, default) returning \"id\", \"name\", \"email\", \"role\", \"created_at\"\nparams: [object Object],$2b$10$N85owE5hqHARp67gmkPAYeI2q/xvOOdO.ACjohKhrlW.t3QLwrTOC,user","service":"acquisiitons-api"}
+{"level":"error","message":"Sign-Up Error Error: Failed query: insert into \"users\" (\"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\") values (default, $1, default, $2, $3, default, default) returning \"id\", \"name\", \"email\", \"role\", \"created_at\"\nparams: [object Object],$2b$10$N85owE5hqHARp67gmkPAYeI2q/xvOOdO.ACjohKhrlW.t3QLwrTOC,user","service":"acquisiitons-api"}
+{"level":"error","message":"Password Hashing Error Error: data and salt arguments required","service":"acquisiitons-api"}
+{"level":"error","message":"Error Creating a User Error: Error Hashing","service":"acquisiitons-api"}
+{"level":"error","message":"Sign-Up Error Error: Error Hashing","service":"acquisiitons-api"}
+{"level":"error","message":"Password Hashing Error Error: data and salt arguments required","service":"acquisiitons-api"}
+{"level":"error","message":"Error Creating a User Error: Error Hashing","service":"acquisiitons-api"}
+{"level":"error","message":"Sign-Up Error Error: Error Hashing","service":"acquisiitons-api"}
+{"level":"error","message":"Password Hashing Error Error: data and salt arguments required","service":"acquisiitons-api"}
+{"level":"error","message":"Error Creating a User Error: Error Hashing","service":"acquisiitons-api"}
+{"level":"error","message":"Sign-Up Error Error: Error Hashing","service":"acquisiitons-api"}
+{"level":"error","message":"Password Hashing Error Error: data and salt arguments required","service":"acquisiitons-api"}
+{"level":"error","message":"Error Creating a User Error: Error Hashing","service":"acquisiitons-api"}
+{"level":"error","message":"Sign-Up Error Error: Error Hashing","service":"acquisiitons-api"}
+{"level":"error","message":"Sign-Up Error ReferenceError: jwttoken is not defined","service":"acquisiitons-api"}
+{"level":"error","message":"Sign-Up Error Error: secretOrPrivateKey must have a value","service":"acquisiitons-api"}
+{"level":"error","message":"Error Creating a User Error: User already exist","service":"acquisiitons-api"}
+{"level":"error","message":"Sign-Up Error Error: User already exist","service":"acquisiitons-api"}
+{"level":"error","message":"Sign-Up Error Error: secretOrPrivateKey must have a value","service":"acquisiitons-api"}
+{"level":"error","message":"Sign-Up Error Error: secretOrPrivateKey must have a value","service":"acquisiitons-api"}
+{"level":"error","message":"Error Creating a User Error: User already exist","service":"acquisiitons-api"}
+{"level":"error","message":"Sign-Up Error Error: User already exist","service":"acquisiitons-api"}
+{"level":"error","message":"Sign-Up Error ReferenceError: cookies is not defined","service":"acquisiitons-api"}
+{"level":"error","message":"Error Creating a User Error: User already exist","service":"acquisiitons-api"}
+{"level":"error","message":"Sign-Up Error Error: User already exist","service":"acquisiitons-api"}
