@@ -274,3 +274,22 @@
 {"level":"info","message":"::1 - - [07/Apr/2026:16:38:32 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisiitons-api"}
 {"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisiitons-api"}
 {"level":"info","message":"::1 - - [07/Apr/2026:16:38:33 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisiitons-api"}
+{"level":"info","message":"Hello from acquisition!","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [08/Apr/2026:20:48:31 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisiitons-api"}
+{"level":"info","message":"Hello from acquisition!","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [08/Apr/2026:20:48:36 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisiitons-api"}
+{"level":"info","message":"Hello from acquisition!","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [08/Apr/2026:20:48:36 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [08/Apr/2026:20:48:40 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [08/Apr/2026:20:48:43 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisiitons-api"}
+{"level":"error","message":"Error authenticating user: Error: User not found","service":"acquisiitons-api"}
+{"level":"error","message":"Sign in error User not found","service":"acquisiitons-api","stack":"Error: User not found\n    at authenticateUser (file:///app/src/services/auth.service.js:58:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async signIn (file:///app/src/controllers/auth.controller.js:61:18)"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [08/Apr/2026:20:49:03 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 401 31 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User jhon@gmail.com Created Sucessfully","service":"acquisiitons-api"}
+{"level":"info","message":"User Registered Sucessfully: jhon@gmail.com","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [08/Apr/2026:20:49:42 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 103 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User jhon@gmail.com authenticated successfully","service":"acquisiitons-api"}
+{"level":"info","message":"User signed in successfully: jhon@gmail.com","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [08/Apr/2026:20:49:48 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 115 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User signed out successfully","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [08/Apr/2026:20:50:07 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}

@@ -1,0 +1,12 @@
+# Neon serverless Postgres is external in production; this compose file only runs the app.
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    command: npm start
+    env_file:
+      - .env.production
+    ports:
+      - '3000:3000'
