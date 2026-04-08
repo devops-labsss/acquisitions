@@ -293,3 +293,24 @@
 {"level":"info","message":"::ffff:172.20.0.1 - - [08/Apr/2026:20:49:48 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 115 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
 {"level":"info","message":"User signed out successfully","service":"acquisiitons-api"}
 {"level":"info","message":"::ffff:172.20.0.1 - - [08/Apr/2026:20:50:07 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"Hello from acquisition!","service":"acquisiitons-api"}
+{"level":"info","message":"::1 - - [08/Apr/2026:21:07:39 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisiitons-api"}
+{"level":"info","message":"Hello from acquisition!","service":"acquisiitons-api"}
+{"level":"info","message":"::1 - - [08/Apr/2026:21:07:40 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisiitons-api"}
+{"level":"info","message":"Hello from acquisition!","service":"acquisiitons-api"}
+{"level":"info","message":"::1 - - [08/Apr/2026:21:07:41 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisiitons-api"}
+{"level":"info","message":"Hello from acquisition!","service":"acquisiitons-api"}
+{"level":"info","message":"::1 - - [08/Apr/2026:21:07:41 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisiitons-api"}
+{"level":"info","message":"Hello from acquisition!","service":"acquisiitons-api"}
+{"level":"info","message":"::1 - - [08/Apr/2026:21:07:41 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisiitons-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/","service":"acquisiitons-api"}
+{"level":"info","message":"::1 - - [08/Apr/2026:21:07:42 +0000] \"GET / HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:21:08:32 +0000] \"GET /api/users/ HTTP/1.1\" 404 149 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"Hello from acquisition!","service":"acquisiitons-api"}
+{"level":"info","message":"::1 - - [08/Apr/2026:21:08:47 +0000] \"GET / HTTP/1.1\" 200 23 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisiitons-api"}
+{"level":"info","message":"::1 - - [08/Apr/2026:21:08:50 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisiitons-api"}
+{"level":"info","message":"::1 - - [08/Apr/2026:21:09:02 +0000] \"GET /api/users/ HTTP/1.1\" 404 149 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:21:16:06 +0000] \"GET /api/users/ HTTP/1.1\" 200 330 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:21:16:29 +0000] \"GET /api HTTP/1.1\" 200 38 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:21:16:37 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:21:16:53 +0000] \"GET /api/users/ HTTP/1.1\" 200 330 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
