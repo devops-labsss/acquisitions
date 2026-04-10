@@ -1,19 +1,17 @@
-import logger from "#config/logger.js"
-import bcrypt from 'bcrypt'
-import {db} from '#config/database.js'
-import { users } from "#models/user.model.js";
-import { eq } from "drizzle-orm";
+import logger from '#config/logger.js';
+import bcrypt from 'bcrypt';
+import { db } from '#config/database.js';
+import { users } from '#models/user.model.js';
+import { eq } from 'drizzle-orm';
 
-export const hashPassword = async (password) =>{
-    try {
-        
-        return await bcrypt.hash(password,10);
-        
-    } catch (e) {
-        logger.error(`Password Hashing Error ${e}`)
-        throw new Error(`Error Hashing`)
-    }
-}
+export const hashPassword = async password => {
+  try {
+    return await bcrypt.hash(password, 10);
+  } catch (e) {
+    logger.error(`Password Hashing Error ${e}`);
+    throw new Error('Error Hashing');
+  }
+};
 
 export const comparePassword = async (password, hashedPassword) => {
   try {
@@ -24,27 +22,36 @@ export const comparePassword = async (password, hashedPassword) => {
   }
 };
 
-export const createUser = async ( {name, email, password, role='user'}) => {
-    try {
-        const authenticateUser  = await db.select().from(users).where(eq(users.email, email)).limit(1); 
-                
-        if(authenticateUser.length > 0) throw new Error('User already exist')
+export const createUser = async ({ name, email, password, role = 'user' }) => {
+  try {
+    const authenticateUser = await db
+      .select()
+      .from(users)
+      .where(eq(users.email, email))
+      .limit(1);
 
-        const password_hash = await hashPassword(password);
+    if (authenticateUser.length > 0) throw new Error('User already exist');
 
-        const [newUser] = await db.insert(users)
-        .values({name , email, password: password_hash, role})
-        .returning({ id: users.id,name: users.name, email: users.email, role:users.role, created_at: users.created_at })
+    const password_hash = await hashPassword(password);
 
-        logger.info(`User ${email} Created Sucessfully`)
-        return newUser;
+    const [newUser] = await db
+      .insert(users)
+      .values({ name, email, password: password_hash, role })
+      .returning({
+        id: users.id,
+        name: users.name,
+        email: users.email,
+        role: users.role,
+        created_at: users.created_at,
+      });
 
-    } catch (e) {
-        logger.error(`Error Creating a User ${e}`)
-        throw e;
-        
-    }
-}
+    logger.info(`User ${email} Created Sucessfully`);
+    return newUser;
+  } catch (e) {
+    logger.error(`Error Creating a User ${e}`);
+    throw e;
+  }
+};
 
 export const authenticateUser = async ({ email, password }) => {
   try {

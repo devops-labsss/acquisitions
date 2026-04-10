@@ -2,8 +2,8 @@ import logger from '#config/logger.js';
 import { authenticateUser, createUser } from '#services/auth.service.js';
 import { formatValidationErrors } from '#utils/format.js';
 import { signinSchema, signupSchema } from '#validations/auth.validation.js';
-import {jwttoken} from '#utils/jwt.js';
-import {cookies} from '#utils/cookies.js'
+import { jwttoken } from '#utils/jwt.js';
+import { cookies } from '#utils/cookies.js';
 
 export const signup = async (req, res, next) => {
   try {
@@ -16,11 +16,15 @@ export const signup = async (req, res, next) => {
       });
     }
 
-    const { name, email,password,  role } = validationResult.data;
+    const { name, email, password, role } = validationResult.data;
 
-    const user = await createUser({name , email, password, role});
+    const user = await createUser({ name, email, password, role });
 
-    const token = jwttoken.sign({ id: user.id, email: user.email, role:user.role})
+    const token = jwttoken.sign({
+      id: user.id,
+      email: user.email,
+      role: user.role,
+    });
 
     cookies.set(res, 'token', token);
 
@@ -29,9 +33,9 @@ export const signup = async (req, res, next) => {
       message: 'User Registered',
       user: {
         id: user.id,
-        name:user.name,
-        email:user.email,
-        role:user.role,
+        name: user.name,
+        email: user.email,
+        role: user.role,
       },
     });
   } catch (e) {
