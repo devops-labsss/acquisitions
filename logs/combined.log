@@ -314,3 +314,336 @@
 {"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:21:16:29 +0000] \"GET /api HTTP/1.1\" 200 38 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:21:16:37 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:21:16:53 +0000] \"GET /api/users/ HTTP/1.1\" 200 330 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Apr/2026:12:45:14 +0000] \"GET /api/users/:7 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Apr/2026:12:47:42 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"Hello from acquisition!","service":"acquisiitons-api"}
+{"level":"info","message":"::1 - - [09/Apr/2026:12:48:52 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisiitons-api"}
+{"level":"info","message":"::1 - - [09/Apr/2026:12:48:52 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisiitons-api"}
+{"level":"info","message":"Hello from acquisition!","service":"acquisiitons-api"}
+{"level":"info","message":"::1 - - [09/Apr/2026:12:48:53 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Apr/2026:12:49:09 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User rohan@gmail.com authenticated successfully","service":"acquisiitons-api"}
+{"level":"info","message":"User signed in successfully: rohan@gmail.com","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Apr/2026:13:00:29 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 118 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Apr/2026:13:01:35 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Apr/2026:13:01:43 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Apr/2026:13:02:52 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Apr/2026:13:03:19 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Apr/2026:13:03:45 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Apr/2026:13:03:46 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Apr/2026:13:03:46 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Apr/2026:13:03:46 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Rate limit exceeded","path":"/api/auth/sign-in","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Apr/2026:13:03:47 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 403 51 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Apr/2026:13:04:48 +0000] \"GET /api/users/8 HTTP/1.1\" 500 1447 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com user ","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Apr/2026:13:05:24 +0000] \"GET /api/users/8 HTTP/1.1\" 500 1454 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com user ","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Apr/2026:13:08:56 +0000] \"GET /api/users/8 HTTP/1.1\" 500 1454 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com user ","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Apr/2026:13:09:53 +0000] \"GET /api/users/8 HTTP/1.1\" 200 31 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:16:21 +0000] \"GET /api/users/8?email=rohan@gmail.com&password=123123 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User rohan@gmail.com authenticated successfully","service":"acquisiitons-api"}
+{"level":"info","message":"User signed in successfully: rohan@gmail.com","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:17:37 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 118 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com user ","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com user ","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:33:03 +0000] \"GET /api/users/2 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:33:20 +0000] \"GET /api/users/2 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:33:27 +0000] \"GET /api/users/2 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:33:32 +0000] \"GET /api/users/8 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:33:34 +0000] \"GET /api/users/8 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:34:04 +0000] \"GET /api/users/8 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:34:05 +0000] \"GET /api/users/8 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:35:38 +0000] \"GET /api/users/8 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:35:55 +0000] \"GET /api/users/8 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:35:56 +0000] \"GET /api/users/8 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:36:14 +0000] \"GET /api/users/8 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:39:08 +0000] \"GET /api/users/8 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"error","message":"Authentication Error TypeError: Cannot read properties of undefined (reading 'token')","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:39:29 +0000] \"GET /api/users/8 HTTP/1.1\" 500 74 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:40:43 +0000] \"GET /api/users/8 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:40:50 +0000] \"GET /api/users/8 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:41:16 +0000] \"GET /api/users/8 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:41:16 +0000] \"GET /api/users/8 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:41:16 +0000] \"GET /api/users/8 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:41:58 +0000] \"GET /api/users/8 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:45:14 +0000] \"GET /api/users/8 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwiZW1haWwiOiJyb2hhbkBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NTgyMzQ1NywiZXhwIjoxNzc1OTA5ODU3fQ.ZvBd2wOXaOXsuxre7_Dt-zp6DEpdjEeYeV9jbjg_Ofg","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"User : undefined retrived successfully","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:51:27 +0000] \"GET /api/users/8 HTTP/1.1\" 200 50 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"cause":{"code":"42601","file":"scan.l","line":"1244","name":"NeonDbError","position":"91","routine":"scanner_yyerror","severity":"ERROR"},"level":"error","message":"Error getting Users By Id : 8: Failed query: select \"id\", \"name\", \"email\", \"role\", \"created_at\", \"updated_at\" from \"users\" where $1 =  limit $2\nparams: false,1","params":[false,1],"query":"select \"id\", \"name\", \"email\", \"role\", \"created_at\", \"updated_at\" from \"users\" where $1 =  limit $2","service":"acquisiitons-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"role\", \"created_at\", \"updated_at\" from \"users\" where $1 =  limit $2\nparams: false,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/jaiki/Desktop/acquisitions-project/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/jaiki/Desktop/acquisitions-project/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async getUserById (file:///C:/Users/jaiki/Desktop/acquisitions-project/acquisitions/src/services/users.service.js:28:24)"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwiZW1haWwiOiJyb2hhbkBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NTgyMzQ1NywiZXhwIjoxNzc1OTA5ODU3fQ.ZvBd2wOXaOXsuxre7_Dt-zp6DEpdjEeYeV9jbjg_Ofg","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"User : undefined retrived successfully","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:54:40 +0000] \"GET /api/users/8 HTTP/1.1\" 200 50 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"User : undefined retrived successfully","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:55:01 +0000] \"GET /api/users/8 HTTP/1.1\" 200 50 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"User : rohan@gmail.com retrived successfully","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:56:28 +0000] \"GET /api/users/8 HTTP/1.1\" 200 196 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:12:58:38 +0000] \"PUT /api/users/8 HTTP/1.1\" 400 59 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:00:40 +0000] \"PUT /api/users/8 HTTP/1.1\" 400 59 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:01:15 +0000] \"PUT /api/users/8 HTTP/1.1\" 500 1483 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:04:59 +0000] \"PUT /api/users/8 HTTP/1.1\" 500 1483 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:07:19 +0000] \"PUT /api/users/8 HTTP/1.1\" 500 1481 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"error","message":"Error updating user : [object Object] ","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:09:12 +0000] \"PUT /api/users/8 HTTP/1.1\" - - \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"error","message":"Error updating user : [object Object] ","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"error","message":"Error updating user in controller: [object Object] ","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":{"role":"admin"},"service":"acquisiitons-api"}
+{"level":"error","message":"Error updating user in controller: [object Object] ","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":{"role":"admin"},"service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:18:13 +0000] \"PUT /api/users/8 HTTP/1.1\" 400 70 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:20:09 +0000] \"PUT /api/users/8 HTTP/1.1\" 400 59 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:22:51 +0000] \"PUT /api/users/8 HTTP/1.1\" 400 59 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:25:32 +0000] \"PUT /api/users/8 HTTP/1.1\" 400 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:30:26 +0000] \"PUT /api/users/8 HTTP/1.1\" 400 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:37:48 +0000] \"PUT /api/users/8 HTTP/1.1\" 400 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"error","message":"Error updating user in controller: [object Object] ","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:41:40 +0000] \"PUT /api/users/8 HTTP/1.1\" 500 73 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":{"name ":"rohan bhai"},"service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:42:01 +0000] \"PUT /api/users/8 HTTP/1.1\" 400 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:42:48 +0000] \"PUT /api/users/8 HTTP/1.1\" 400 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:43:47 +0000] \"PUT /api/users/8 HTTP/1.1\" 400 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:44:59 +0000] \"PUT /api/users/8 HTTP/1.1\" 400 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":{"name":"rohan bhai"},"service":"acquisiitons-api"}
+{"level":"info","message":"User rohan@gmail.com updated sucessfully","service":"acquisiitons-api"}
+{"level":"info","message":"User : undefined updated sucessfully ","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:47:58 +0000] \"PUT /api/users/8 HTTP/1.1\" 200 39 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":{"role":"admin"},"service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:48:39 +0000] \"PUT /api/users/8 HTTP/1.1\" 400 74 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":{"role":"user"},"service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:49:10 +0000] \"PUT /api/users/8 HTTP/1.1\" 400 74 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":{"role":"user"},"service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:49:20 +0000] \"PUT /api/users/8 HTTP/1.1\" 400 74 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":{"role":"user"},"service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:49:48 +0000] \"PUT /api/users/8 HTTP/1.1\" 400 74 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":{"role":"user"},"service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:55:58 +0000] \"PUT /api/users/8 HTTP/1.1\" 400 74 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":{"email":"rohan123@gmail.com","role":"admin"},"service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:13:57:54 +0000] \"PUT /api/users/8 HTTP/1.1\" 400 74 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User signed out successfully","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:05:06 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User rohan@gmail.com authenticated successfully","service":"acquisiitons-api"}
+{"level":"info","message":"User signed in successfully: rohan@gmail.com","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:05:13 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 118 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":{"email":"rohan123@gmail.com"},"service":"acquisiitons-api"}
+{"level":"info","message":"User rohan123@gmail.com updated sucessfully","service":"acquisiitons-api"}
+{"level":"info","message":"User : undefined updated sucessfully ","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:05:49 +0000] \"PUT /api/users/8 HTTP/1.1\" 200 39 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":{"email":"rohan@gmail.com"},"service":"acquisiitons-api"}
+{"level":"info","message":"User rohan@gmail.com updated sucessfully","service":"acquisiitons-api"}
+{"level":"info","message":"User : undefined updated sucessfully ","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:06:33 +0000] \"PUT /api/users/8 HTTP/1.1\" 200 39 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":{"email":"rohan123@gmail.com"},"service":"acquisiitons-api"}
+{"level":"info","message":"User rohan123@gmail.com updated sucessfully","service":"acquisiitons-api"}
+{"level":"info","message":"User : undefined updated sucessfully ","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:18:32 +0000] \"PUT /api/users/8 HTTP/1.1\" 200 39 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":{"email":"rohan@gmail.com"},"service":"acquisiitons-api"}
+{"level":"info","message":"User rohan@gmail.com updated sucessfully","service":"acquisiitons-api"}
+{"level":"info","message":"User : undefined updated sucessfully ","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:18:48 +0000] \"PUT /api/users/8 HTTP/1.1\" 200 39 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":{"email":"rohan@gmail.com","exp":1775909857,"iat":1775823457,"id":8,"role":"user"},"service":"acquisiitons-api"}
+{"level":"info","message":{"email":"rohan@gmail.com","exp":1775909857,"iat":1775823457,"id":8,"role":"user"},"service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":{"email":"rohan@gmail.com"},"service":"acquisiitons-api"}
+{"level":"info","message":"User rohan@gmail.com updated sucessfully","service":"acquisiitons-api"}
+{"level":"info","message":"User : undefined updated sucessfully ","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:21:19 +0000] \"PUT /api/users/8 HTTP/1.1\" 200 39 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":{"email":"rohan@gmail.com"},"service":"acquisiitons-api"}
+{"level":"info","message":"User rohan@gmail.com updated sucessfully","service":"acquisiitons-api"}
+{"level":"info","message":"User : undefined updated sucessfully ","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:25:17 +0000] \"PUT /api/users/8 HTTP/1.1\" 200 39 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , admin ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":{"email":"rohan@gmail.com"},"service":"acquisiitons-api"}
+{"level":"info","message":"User rohan@gmail.com updated sucessfully","service":"acquisiitons-api"}
+{"level":"info","message":"User : undefined updated sucessfully ","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:26:29 +0000] \"PUT /api/users/8 HTTP/1.1\" 200 39 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , admin ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":{"email":"rohan@gmail.com"},"service":"acquisiitons-api"}
+{"level":"info","message":"User rohan@gmail.com updated sucessfully","service":"acquisiitons-api"}
+{"level":"info","message":"User : undefined updated sucessfully ","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:26:58 +0000] \"PUT /api/users/8 HTTP/1.1\" 200 39 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , admin ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":{"email":"rohan@gmail.com"},"service":"acquisiitons-api"}
+{"level":"info","message":"User rohan@gmail.com updated sucessfully in service","service":"acquisiitons-api"}
+{"level":"info","message":"User : undefined updated sucessfully ","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:31:30 +0000] \"PUT /api/users/8 HTTP/1.1\" 200 39 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , admin ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":{"email":"rohan@gmail.com"},"service":"acquisiitons-api"}
+{"level":"info","message":"User rohan@gmail.com updated sucessfully in service","service":"acquisiitons-api"}
+{"level":"info","message":"User : undefined updated sucessfully ","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:34:24 +0000] \"PUT /api/users/8 HTTP/1.1\" 200 39 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , admin ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":{"email":"rohan@gmail.com"},"service":"acquisiitons-api"}
+{"level":"info","message":"User rohan@gmail.com updated sucessfully in service","service":"acquisiitons-api"}
+{"level":"info","message":"User : rohan@gmail.com updated sucessfully ","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:37:07 +0000] \"PUT /api/users/8 HTTP/1.1\" 200 50 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : rohan@gmail.com , admin ","service":"acquisiitons-api"}
+{"level":"info","message":"Updating User: 8","service":"acquisiitons-api"}
+{"level":"info","message":"Body data : [object Object]","service":"acquisiitons-api"}
+{"level":"info","message":{"email":"rohan@gmail.com"},"service":"acquisiitons-api"}
+{"level":"info","message":"User rohan@gmail.com updated sucessfully in service","service":"acquisiitons-api"}
+{"level":"info","message":"User : rohan@gmail.com updated sucessfully ","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:39:32 +0000] \"PUT /api/users/8 HTTP/1.1\" 200 64 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:42:49 +0000] \"GET /api/auth/sign-up HTTP/1.1\" 404 155 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:42:55 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 59 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:42:59 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 59 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User temp@gmail.com Created Sucessfully","service":"acquisiitons-api"}
+{"level":"info","message":"User Registered Sucessfully: temp@gmail.com","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:44:15 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 101 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:45:15 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 59 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:45:32 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 59 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User temp@gmail.com authenticated successfully","service":"acquisiitons-api"}
+{"level":"info","message":"User signed in successfully: temp@gmail.com","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:45:46 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 113 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:47:17 +0000] \"DELETE /api/users/9 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:48:10 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User temp@gmail.com authenticated successfully","service":"acquisiitons-api"}
+{"level":"info","message":"User signed in successfully: temp@gmail.com","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:48:35 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 113 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:49:20 +0000] \"DELETE /api/users/delete/9 HTTP/1.1\" 404 160 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:49:32 +0000] \"DELETE /api/users/delete:9 HTTP/1.1\" 401 71 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : temp@gmail.com , admin ","service":"acquisiitons-api"}
+{"level":"info","message":"Deleting user : delete:9","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:50:41 +0000] \"DELETE /api/users/delete:9 HTTP/1.1\" 400 59 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : temp@gmail.com , admin ","service":"acquisiitons-api"}
+{"level":"info","message":"Deleting user : :9","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:53:39 +0000] \"DELETE /api/users/:9 HTTP/1.1\" 400 59 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : temp@gmail.com , admin ","service":"acquisiitons-api"}
+{"level":"info","message":"Deleting user : 9","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:53:55 +0000] \"DELETE /api/users/9 HTTP/1.1\" 403 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User temp@gmail.com authenticated successfully","service":"acquisiitons-api"}
+{"level":"info","message":"User signed in successfully: temp@gmail.com","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:55:46 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 113 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User signed out successfully","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:56:11 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User temp@gmail.com authenticated successfully","service":"acquisiitons-api"}
+{"level":"info","message":"User signed in successfully: temp@gmail.com","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:57:17 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 112 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : temp@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"warn","message":"Acess denied for the User:temp@gmail.com with the role: user ","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:57:59 +0000] \"DELETE /api/users/9 HTTP/1.1\" 401 61 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : temp@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Deleting user : 9","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:14:59:32 +0000] \"DELETE /api/users/9 HTTP/1.1\" 403 74 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : temp@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Deleting user : 9","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:15:01:22 +0000] \"DELETE /api/users/9 HTTP/1.1\" 403 74 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : temp@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Deleting user : 9","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:15:04:44 +0000] \"DELETE /api/users/9 HTTP/1.1\" 403 74 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : temp@gmail.com , user ","service":"acquisiitons-api"}
+{"level":"info","message":"Deleting user : 9","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:15:24:04 +0000] \"DELETE /api/users/9 HTTP/1.1\" 403 74 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"error","message":"Error authenticating user: Error: User not found","service":"acquisiitons-api"}
+{"level":"error","message":"Sign in error User not found","service":"acquisiitons-api","stack":"Error: User not found\n    at authenticateUser (file:///C:/Users/jaiki/Desktop/acquisitions-project/acquisitions/src/services/auth.service.js:58:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async signIn (file:///C:/Users/jaiki/Desktop/acquisitions-project/acquisitions/src/controllers/auth.controller.js:61:18)"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:15:27:38 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 401 31 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User hritickchawla666@gmail.com authenticated successfully","service":"acquisiitons-api"}
+{"level":"info","message":"User signed in successfully: hritickchawla666@gmail.com","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:15:27:49 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 125 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"User Autheticated : hritickchawla666@gmail.com , admin ","service":"acquisiitons-api"}
+{"level":"info","message":"Deleting user : 9","service":"acquisiitons-api"}
+{"level":"info","message":"User : temp@gmail.com deleted sucessfully","service":"acquisiitons-api"}
+{"level":"info","message":"User : undefined delted sucessfully","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:15:28:54 +0000] \"DELETE /api/users/9 HTTP/1.1\" 200 39 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}

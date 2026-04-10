@@ -1,20 +1,15 @@
-import  {fetchAllUsers}  from '#controllers/users.controller.js';
+import  {deleteUserById, fetchAllUsers, fetchUserById, updateUserById}  from '#controllers/users.controller.js';
+import { authenticatToken, requiredRole } from '#middleware/auth.middleware.js';
 import express from 'express'; 
 
 const router = express.Router();
 
 router.get('/', fetchAllUsers)
 
-router.get('/:id', ( ) => {
-    res.status(200).send(`GET/:id from the user endppoint`);
-})
+router.get('/:id', authenticatToken, fetchUserById)
 
-router.put('/:id', ( ) => {
-    res.status(200).send(`PUT/:id from the user endppoint`);
-})
+router.put('/:id',authenticatToken, updateUserById)
 
-router.delete('/:id', ( ) => {
-    res.status(200).send(`DELETE/:id from the user endppoint`);
-})
+router.delete('/:id',authenticatToken ,requiredRole(['admin']), deleteUserById)
 
 export default router;
