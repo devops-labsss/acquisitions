@@ -85,34 +85,28 @@ export const updateUserById = async (req, res) => {
 
     // Autheriazation check
     if (!req.user) {
-      return res
-        .status(400)
-        .json({
-          error: 'Auhtorisation Failed',
-          message: 'You must be logged in to update user information ',
-        });
+      return res.status(400).json({
+        error: 'Auhtorisation Failed',
+        message: 'You must be logged in to update user information ',
+      });
     }
 
     // Allow user to update only their own information except role
     if (req.user.role !== 'admin' && req.user.id !== id) {
-      return res
-        .status(400)
-        .json({
-          error: 'Access denied ',
-          message: 'You can Update your information',
-        });
+      return res.status(400).json({
+        error: 'Access denied ',
+        message: 'You can Update your information',
+      });
     }
 
     console.log(`|${req.user.role}|`);
     // If it prints |admin |, the space is causing the mismatch.
     // Only admin user can change their role
     if (updates.role && req.user.role !== 'admin') {
-      return res
-        .status(400)
-        .json({
-          error: 'Access denied',
-          message: 'Only admin user can change user role',
-        });
+      return res.status(400).json({
+        error: 'Access denied',
+        message: 'Only admin user can change user role',
+      });
     }
 
     if (req.user.role !== 'admin') {

@@ -48,12 +48,10 @@ const securityMiddleware = async (req, res, next) => {
         path: req.path,
       });
 
-      return res
-        .status(429)
-        .json({
-          error: 'Forbidden',
-          message,
-        });
+      return res.status(429).json({
+        error: 'Forbidden',
+        message,
+      });
     }
 
     if (decision.isDenied() && decision.reason.isShield()) {
@@ -63,12 +61,10 @@ const securityMiddleware = async (req, res, next) => {
         path: req.path,
       });
 
-      return res
-        .status(403)
-        .json({
-          error: 'Forbidden',
-          message: 'Request blocked by the security policy',
-        });
+      return res.status(403).json({
+        error: 'Forbidden',
+        message: 'Request blocked by the security policy',
+      });
     }
 
     if (decision.isDenied() && decision.reason.isRateLimit()) {
