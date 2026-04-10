@@ -29,7 +29,10 @@ const securityMiddleware = async ( req, res, next) => {
 
         const client = aj.withRule(slidingWindow({mode:'LIVE', interval:'1m', max:limit , name: `${role}-rate-limit`}));
 
-        const decision = await client.protect(req);
+        const decision = await client.protect(req, {
+  // If req.ip is missing, use localhost as a fallback
+            ip: req.ip || "127.0.0.1", 
+        });
 
         if(decision.isDenied() && decision.reason.isBot()) {
             console.log("Arcjet decision:", decision);

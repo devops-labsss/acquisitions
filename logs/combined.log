@@ -647,3 +647,6 @@
 {"level":"info","message":"User : temp@gmail.com deleted sucessfully","service":"acquisiitons-api"}
 {"level":"info","message":"User : undefined delted sucessfully","service":"acquisiitons-api"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:15:28:54 +0000] \"DELETE /api/users/9 HTTP/1.1\" 200 39 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:16:38:10 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:16:38:10 +0000] \"GET /api HTTP/1.1\" 200 38 \"-\" \"-\"","service":"acquisiitons-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Apr/2026:16:38:10 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisiitons-api"}
