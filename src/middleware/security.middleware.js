@@ -49,10 +49,10 @@ const securityMiddleware = async (req, res, next) => {
       });
 
       return res
-        .status(403)
+        .status(429)
         .json({
           error: 'Forbidden',
-          message: 'Automated request are not allowed',
+          message,
         });
     }
 

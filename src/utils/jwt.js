@@ -11,7 +11,7 @@ export const jwttoken = {
       return jwt.sign(payload, JWT_SECRET, { expiresIn: EXPIRES_IN });
     } catch (e) {
       logger.error(`Failed to Sign-in JWT token ${e}`);
-      throw new Error('Failed to Sign-in JWT token ');
+      throw new Error('Failed to Sign-in JWT token ', {cause:e});
     }
   },
   verify: token => {
@@ -19,7 +19,7 @@ export const jwttoken = {
       return jwt.verify(token, JWT_SECRET);
     } catch (e) {
       logger('Failed to Sign-in JWT token ', e);
-      throw new Error('Failed to Sign-in JWT token ');
+      throw new Error('Failed to Sign-in JWT token ', {cause:e});
     }
   },
 };
